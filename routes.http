@@ -1,0 +1,27 @@
+POST https://node-do-zero-zlyu.onrender.com/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET https://node-do-zero-zlyu.onrender.com/videos
+
+###
+
+PUT https://node-do-zero-zlyu.onrender.com/videos/28df8cee-8f63-426d-859d-ad865c5e60f1
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+DELETE https://node-do-zero-zlyu.onrender.com/videos/0e14063d-1de7-41d1-b4a6-25cfbc9ebc3c
